@@ -8,7 +8,7 @@ const events = [
     title: "Aashiyana: Room, PG, and Mess Finder",
     description:
       "A MERN stack-based platform designed to help college students effortlessly find accommodations like rooms, PGs, and mess services near their institutions.",
-    image: "Ashiyana.png",
+    image: "/public/Ashiyana.png",
     Github: "https://github.com/jhadarsh/Aashiyana.git",
     Website: "https://aashiyana-1.onrender.com/listings?",
     details:
@@ -20,7 +20,7 @@ const events = [
     title: "Blogify",
     description:
       "Your go-to platform for insightful articles on personal growth, technology, and sustainable living.",
-    image: "Blogofy.png",
+    image: "/public/Blogofy.png",
     Github: "https://github.com/jhadarsh/Blogify.git",
     Website: "https://blogify-p6e0.onrender.com/",
     details:
@@ -31,7 +31,7 @@ const events = [
     title: "Simon Says",
     description:
       "A fun and interactive memory game where players replicate sequences of colors and sounds.",
-    image: "simonsays.png",
+    image: "/public/simonsays.png",
     Github: "https://github.com/jhadarsh/Simonsaysgame.git",
     Website: "https://jhadarsh.github.io/Simonsaysgame/",
     details:
@@ -42,7 +42,7 @@ const events = [
     title: "DailyVibe",
     description:
       "An all-in-one web platform providing real-time weather updates, news, movie/TV recommendations, fun facts, jokes, and recipes.",
-    image: "dailyvibe.png",
+    image: "/public/dailyvibe.png",
     Github: "https://github.com/jhadarsh/Dailyvibe.git",
     Website: "https://jhadarsh.github.io/Dailyvibe/",
     details:
@@ -53,7 +53,7 @@ const events = [
     title: "To-Do List",
     description:
       "A web application designed to help users efficiently organize and manage their tasks with ease.",
-    image: "todo.png",
+    image: "/public/todo.png",
     Github: "https://github.com/jhadarsh/ToDoList.git",
     Website: "https://jhadarsh.github.io/ToDoList/",
     details:
@@ -64,7 +64,7 @@ const events = [
     title: "CIFAR-10 Classification",
     description:
       "A CNN-based approach for classifying the CIFAR-10 dataset, exploring deep learning concepts through image classification.",
-    image: " cifar10.png",
+    image: " /public/cifar10.png",
     Github:
       "https://github.com/jhadarsh/CIFAR-10-Classification-with-Convolutional-Neural-Networks-CNN-.git",
     Website: "/",
@@ -76,7 +76,7 @@ const events = [
     title: "Suspicious Activity Detection System",
     description:
       "A real-time AI model using YOLO for detecting suspicious behavior in public spaces and workplaces.",
-    image: " models.jpeg",
+    image: " /public/models.jpeg",
     Github:
       "https://github.com/jhadarsh/Suspicious-Activity-Detection-System-YOLO-powered-.git",
     Website: "/",

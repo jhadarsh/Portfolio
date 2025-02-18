@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div className="gradient-overlay"></div>
 
       {/* Centered Image */}
-      <img src="/hero5.png" alt="Hero" className="hero-image" />
+      <img src="/public/hero5.png" alt="Hero" className="hero-image" />
     </div>
   );
 };

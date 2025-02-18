@@ -27,35 +27,35 @@ const ScrollingImages = () => {
         style={{ transform: `translateX(${moveAmount}px)` }}
       >
         <img
-          src="photo-1.jpg"
+          src="/public/photo-1.jpg"
           alt="Image 1"
         />
         <img
-          src="photo-2.jpg"
+          src="/public/photo-2.jpg"
           alt="Image 2"
         />
         <img
-          src="photo-3.jpg"
+          src="/public/photo-3.jpg"
           alt="Image 3"
         />
         <img
-          src="photo-4.jpg"
+          src="/public/photo-4.jpg"
           alt="Image 4"
         />
         <img
-          src="photo-5.jpg"
+          src="/public/photo-5.jpg"
           alt="Image 5"
         />
         <img
-          src="photo-6.jpg"
+          src="/public/photo-6.jpg"
           alt="Image 6"
         />
         <img
-          src="photo-7.jpg"
+          src="/public/photo-7.jpg"
           alt="Image 6"
         />
            <img
-          src="photo-8.jpg"
+          src="/public/photo-8.jpg"
           alt="Image 6"
         />
       </div>

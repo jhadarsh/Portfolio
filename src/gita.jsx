@@ -7,7 +7,7 @@ const BhagavadGita = () => {
       <div className="video-container">
         <div className="gradient-overlay"></div>
         <video
-          src="/krishna.mp4"
+          src="/public/krishna.mp4"
           className="video"
           autoPlay
           loop

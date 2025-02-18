@@ -31,7 +31,7 @@ const Profile = () => {
 
         {/* Center Image */}
         <div className="center-image">
-        <img src="../hero3-main.png" alt="Your Name"  className="profile-image" />
+        <img src="/public/hero3-main.png" alt="Your Name"  className="profile-image" />
         </div>
 
         {/* Right Text */}

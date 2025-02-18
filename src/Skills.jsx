@@ -78,20 +78,20 @@ function SelectActionCard() {
       <div className="alllogobox"> 
         <div className="logo3 logobox3">
           <div className="js logo">
-            <img src="../JavaScript-logo.png" alt="Your Name" className="photologo" />
+            <img src="/public/JavaScript-logo.png" alt="Your Name" className="photologo" />
           </div>
           <div className="tail logo">
-            <img src="../vite.svg" alt="Your Name" className="photologo" />
+            <img src="/public/vite.svg" alt="Your Name" className="photologo" />
           </div>
         </div>
 
         <div className="logobox1">
           <div className="logo1">
             <div className="py logo">
-              <img src="../python.png" alt="Your Name" className="photologo" />
+              <img src="/public/python.png" alt="Your Name" className="photologo" />
             </div>
             <div className="re logo">
-              <img src="../React-icon.svg.png" alt="Your Name" className="photologo" />
+              <img src="/public/React-icon.svg.png" alt="Your Name" className="photologo" />
             </div>
           </div>
 

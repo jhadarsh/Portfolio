@@ -12,7 +12,7 @@ export default function Cartoon() {
   return (
     <div className="cartoonbox">
       <div className="cartoonimg">
-        <img src="../Cartoon.png" alt="Your Name" className="cartoon" />
+        <img src="/public/Cartoon.png" alt="Your Name" className="cartoon" />
       </div>
       <div className="cartoontitle">
         <h3 className="uperones">Building</h3>
