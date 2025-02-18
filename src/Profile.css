@@ -1,0 +1,186 @@
+/* Container to hold the profile and photo */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(to bottom, #1a1a2e, #0f0f1a); */
+  color: white;
+  overflow: hidden;
+  font-family: "Arial", sans-serif;
+}
+
+/* Profile text section */
+.profile-info {
+  flex: 1; /* Allow this section to take up remaining space */
+  max-width: 100%; /* Limit the width of the profile info */
+  padding-left: 120px;
+}
+.text-effect {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2b013b; /* Initial color */
+  text-align: center;
+  overflow: hidden; /* Ensures text is hidden while typing */
+  white-space: nowrap; /* Prevents text from wrapping to the next line */
+  width: 0; /* Start with no width to simulate typing */
+  animation: typing 3s steps(60) 1s forwards;
+  border-right: 2px solid white;
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.6); /* Subtle glow */
+}
+.gradient-text {
+  font-weight: bold;
+
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #00ffff
+  ); /* Red to Cyan gradient */
+  -webkit-background-clip: text; /* Clips the gradient to the text */
+  -webkit-text-fill-color: transparent; /* Makes the text itself transparent to show the gradient */
+  background-clip: text; /* Fallback for other browsers */
+}
+
+/* Typing effect animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.info-main {
+  /* background-color: #ff0000; */
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 700px;
+  margin-top: -100px;
+}
+
+.content-wrapper {
+  /* background-color: pink; */
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.part-two {
+  display: flex;
+  flex-direction: row;
+  margin-top: -500px;
+}
+.left-text {
+  /* background-color: blue; */
+  width: 300px;
+  height: 200px;
+  margin-top: 400px;
+  margin-left: 100px;
+  margin-right: -150px;
+}
+.center-image {
+  /* background-color: green; */
+  width: 450px;
+  height: 500px;
+}
+.profile-image {
+  height: 600px;
+  width: 600px;
+  margin-left: -40px;
+  color: black;
+  
+}
+.right-text {
+  /* background-color: blue; */
+  width: 300px;
+  height: 200px;
+  margin-top: 300px;
+}
+.part-one {
+  /* position: absolute;
+  top: 28%;
+  left: 50%; */
+  margin-left: 500px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 1rem;
+  width: fit-content;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.hero-subtext {
+  margin-left: 0.5rem;
+  font-size: 0.875rem; /* Equivalent to text-sm */
+  opacity: 0.4;
+}
+
+@media (min-width: 768px) {
+  .hero-subtext {
+    margin-left: 2rem;
+    transform: translateY(0.5rem);
+  }
+}
+
+.hero-title {
+  background: linear-gradient(to right, #ff2764, #00d0ff);
+  margin-top: -30px;
+  -webkit-background-clip: text;
+  background-clip: text; /* Standard */
+  color: transparent;
+  font-weight: 50;
+  font-size: 4.5rem; /* Equivalent to text-7xl */
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 6rem; /* Equivalent to text-8xl */
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-title {
+    font-size: 12rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-title {
+    font-size: 15rem;
+  }
+}
+.left-text p {
+  line-height: 5px;
+}
+.left-text h2 {
+  background: linear-gradient(to right, #ff064c, #00d0ff);
+  -webkit-background-clip: text;
+  background-clip: text; /* Standard */
+  color: transparent;
+}
+.right-text h1 {
+  background: linear-gradient(to right, #ff064c, #00d0ff);
+  -webkit-background-clip: text;
+  background-clip: text; /* Standard */
+  color: transparent;
+  margin-bottom: -10px;
+}
+.right-text p {
+  background: linear-gradient(to right, #ac0031, #79bfcf);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: -10px;
+}
+.images-me-last{
+  margin-top: 300px;
+}

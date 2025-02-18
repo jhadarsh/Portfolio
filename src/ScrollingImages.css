@@ -1,0 +1,27 @@
+.scrolling-container {
+  position: relative;
+  width: 100%;
+  margin-top: -300px;
+  height: 300px;
+  margin-bottom: 250px;
+  overflow: hidden; /* Hide the overflowed images */
+  background-color: #000; /* Optional: Set a background for the container */
+  transform: rotate(5deg); /* Tilt the container from the left side */
+  transform-origin: left center; /* Ensures the tilt happens from the left side */
+  background-color: rgb(106, 87, 62);
+}
+
+.scrolling-images {
+  display: flex;
+  height: 280px;
+  margin-top: 5px;
+  gap: 20px; /* Space between images */
+  transition: transform 0.1s ease-out; /* Smooth transition */
+}
+
+.scrolling-images img {
+  width: 250px; /* Adjust image size */
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px; /* Optional: Rounded corners for images */
+}

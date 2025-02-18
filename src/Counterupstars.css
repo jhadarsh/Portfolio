@@ -1,0 +1,87 @@
+/* StatsCard Container */
+/* StatsCard Container */
+.stats-card {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    margin-left: 7.5rem;
+    color: white;
+    transition: all 0.3s ease;
+    margin-top: -50px;
+    margin-bottom: 10px;
+  }
+  
+  /* Gradient Number */
+  .stats-card .count-number {
+    background: linear-gradient(45deg, #4eff36, black);
+    -webkit-background-clip: text;  /* For Safari */
+    -moz-background-clip: text;     /* For older Firefox versions */
+    background-clip: text;          /* Standard property */
+    color: transparent;
+    font-size: 6rem;
+    font-weight: bold;
+    display: inline-block;
+    animation: gradientAnimation 10s ease infinite;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect: Revoking the count */
+  .stats-card.hovered .count-number {
+    animation: none;
+    font-size: 6rem; /* Reset font size if needed */
+    color: rgba(255, 255, 255, 0.5); /* Apply a light gray color when hovered */
+  }
+  
+  /* Label styling */
+  .stats-card .label {
+    font-size: 2.5rem;
+    margin-top: -3rem;
+    font-weight: bold;
+  }
+  
+  .stats-card .sub-label {
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
+  }
+  
+  /* Gradient animation */
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .stats-card .count-number {
+      font-size: 4rem;
+    }
+  
+    .stats-card .label {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .stats-card .count-number {
+      font-size: 3rem;
+    }
+  
+    .stats-card .label {
+      font-size: 1.5rem;
+    }
+  }
+  .sub-label{
+    margin-top: -10px;
+    margin-left: -5px;
+    line-height: 1.2;
+  }
+  .count-main{
+    display: flex;
+    flex-direction: column;
+  }

@@ -1,0 +1,46 @@
+.cartoonbox {
+  margin-left: 200px;
+  display: flex;
+  flex-direction: row;
+}
+.cartoon {
+  width: 600px;
+  transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out;
+}
+ .cartoon:hover  {
+  transform: scale(1.1); /* Zoom in slightly */
+  filter: brightness(80%); /* Dim the image slightly */
+}
+.cartoontitle {
+  width: 400px;
+  height: 300px;
+  padding-top: 100px;
+}
+.midlleones {
+  font-size: 120px;
+  margin-left: -110px;
+  margin-bottom: -40px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #b37bf9, #7042f9);
+  -webkit-background-clip: text;
+  background-clip: text; /* Standard syntax (not widely supported for text) */
+  -webkit-text-fill-color: transparent;
+}
+.uperones {
+  margin-left: 220px;
+  font-size: 50px;
+  margin-bottom: -90px;
+  color: #d1c1d7;
+}
+.cartoontitle p {
+  margin-left: -90px;
+  font-size: 25px;
+  color: #7e1bf7;
+}
+.text-7xl{
+    font-size:70px;
+}
+.text-5xl{
+    margin-left: -80px;
+    margin-top: -20px;
+}

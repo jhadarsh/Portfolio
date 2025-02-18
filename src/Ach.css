@@ -1,0 +1,9 @@
+.ach-main{
+    display: flex;
+    flex-direction: row;
+}
+.ach-one{
+    width: 50px;
+    margin-top: 150px;
+    z-index: 9999;
+}

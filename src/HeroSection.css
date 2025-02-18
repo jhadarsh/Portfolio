@@ -1,0 +1,55 @@
+/* Background Gradient */
+.hero-container {
+    position: relative;
+    margin-top: -50px;
+    margin-left: 100px;
+    height: 500px;
+    width: 1000px;
+    /* background: linear-gradient(to bottom, black, rgba(75, 0, 130, 0.3), black); */
+    padding: 1rem;
+    font-family: 'Gilroy', sans-serif;
+  }
+  
+  /* Centered Heading */
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 3.5rem; /* Default for small screens */
+    color: white;
+  }
+  
+  @media (min-width: 640px) {
+    .hero-text h1 {
+      font-size: 4.5rem; /* Adjust for larger screens */
+    }
+  }
+  
+  /* Bottom Gradient Overlay */
+  .gradient-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    /* background: linear-gradient(to bottom, transparent, black); */
+    z-index: 20;
+  }
+  
+  /* Centered Image */
+  .hero-image {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 25rem; /* Adjust size based on your design */
+    z-index: 10;
+  }
+  
